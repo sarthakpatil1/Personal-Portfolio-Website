@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mainpage.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Sarthak's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="MainPage.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">Hi, My Name is <span class="purple">Sarthak Patil</span>
+                <div>and I am passionate about</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="/MainPhoto.jpg" alt="">
+            </div>
+        </section>
+        <section class="secondsection">
+            <div class="projecttitle">Projects Worked on:</div>
+            <div class="completedprojects">
+                <ul>
+                    <li>Company Attrition using Python and Tableau Software</li>
+                    <br>
+                    <li>Financial Analytics using Python and Tablue Software</li>
+                    <br>
+                </ul>
+                <ul class="ongoingprojects">
+                    <li>Personal Portfolio Website</li>
+                    <br>
+                    <li>Chat Application(ongoing)</li>
+                </ul>
+            </div>
+        </section>
+
+
+        <section class="resume">
+            <button>
+                <a href="/Portfolio Website/SARTHAK PATIL (1) 2.pdf" download>My Resume</a>
+            </button>
+        </section>
+        <footer>
+            <nav class="downPage">
+                <div class="footPage">
+                    <ul>
+                        <li><a href="mailto:patilsarthak.355@gmail.com">E-Mail</a></li>
+                        <li><a href="https://github.com/sarthakpatil1">Github</a></li>
+                        <li><a href="https://www.linkedin.com/in/sarthak-patil-989316197/">LinkedIn</a></li>
+                        <li><a href="https://www.instagram.com/sarthakpatill/">Instagram</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="footer-rights">
+                <p> Copyright &#169;  sarthaksPortfolio.com | All rights reserved.</p>
+            </div>
+        </footer> 
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Software Development, Web Development and Data Science.'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
